@@ -1,3 +1,20 @@
+// Celsius to Fahrenheit
+var celsiusToFahrenheit = function(celsius) {
+	return celsius * 1.8 + 32;
+}
+
+var celsius = parseInt(prompt("Celsius"));
+alert(celsiusToFahrenheit(celsius));
+
+// Fahrenheit to Celsius
+var fahrenheitToCelsius = function(fahrenheit) {
+	return (fahrenheit - 32) /1.8 ;
+}
+
+var fahrenheit = parseInt(prompt("Fahrenheit"));
+alert(fahrenheitToCelsius(fahrenheit));
+
+
 // Gallons to Liters:
 var gallonsToLiters = function(gallons) {
 	return gallons * 0.264172051;
