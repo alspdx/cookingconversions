@@ -4,7 +4,6 @@ var gallonsToLiters = function(gallons) {
 }
 
 var gallons = parseInt(prompt("Gallons"));
-
 alert(gallonsToLiters(gallons));
 
 
@@ -16,7 +15,6 @@ var litersToGallons = function(liters) {
 }
 
 var liters = parseInt(prompt("Liters"));
-
 alert(litersToGallons(liters));
 
 //Cups to Liters
@@ -26,7 +24,6 @@ var cupsToLiters = function(cups) {
 }
 
 var cups = parseInt(prompt("cups"));
-
 alert(cupsToLiters(cups));
 
 //Liters to cups
@@ -36,5 +33,22 @@ var litersToCups = function(liters) {
 }
 
 var liters = parseInt(prompt("Liters"));
-
 alert(litersToCups(liters));
+
+//Ounces to grams
+
+var ouncesToGrams = function(ounces) {
+	return ounces * 28.3495;
+}
+
+var ounces = parseInt(prompt("Ounces"));
+alert(ouncesToGrams(ounces));
+
+//Grams to ounces
+
+var gramsToOunces = function(grams) {
+	return grams / 28.3495;
+}
+
+var grams = parseInt(prompt("Grams"));
+alert(gramsToOunces(grams));
